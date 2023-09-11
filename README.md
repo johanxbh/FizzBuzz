@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -117,7 +117,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -135,9 +135,16 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [X] Make note of any specific Java syntax which stands out to you and compare what you
 come up with those around you. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
+  - java still use == to compare if two things are the same or different
+  - in java we need to declare the variables
+  - in java, we need to use the curly bracket
+  - in java we start the code with a class defined
+  - it seems that in java we have some wierd 'public static void' stuff before our main function
+  - the and stuff in java is the same as && in the java
+  - the print function in python is the same as System.out.println() in java.
 
 Tip: IntelliJ works just like PyCharm, so you can place breakpoints and step through the code using the debugger in the same way.
 You might find it informative to try stepping through the code to see what it is doing on a few iterations.
@@ -160,7 +167,7 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [X] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -179,7 +186,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify.
+- [X] Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -192,7 +199,7 @@ You'll learn more about the various access modifiers in your Java readings soon.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
+- [X] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
 a sequence of three git commands:
@@ -212,7 +219,7 @@ a sequence of three git commands:
    will most likely need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [X] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
 - [ ] repeat the above steps for `README.md` (or try using the approach below).
 
